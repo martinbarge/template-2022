@@ -33,7 +33,9 @@ You will see a number of files are named with the .html file extension. That is:
   ---
 ```
   
-  You **must** include this entry at the top of every HTML page. Why? Because this tells the page to use the Default template file and is used by the website engine to apply the template to the page. If you make a mistake with this part, your page won't display correctly. Try changing it to see what happens!
+  You **must** include this entry at the top of every HTML page. Why? Because the 'layout: default' entry tells the page to use the Default template file and is used by the website engine to apply the template to the page. If you make a mistake with this part, your page won't display correctly. Try changing it to see what happens!
+  
+  The 'title: home' entry tells the engine what page title to display in the browser tab or toolbar. Change the word 'home' to something different to see the how it works.
 
 ### Other essential files
 
