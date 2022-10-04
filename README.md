@@ -14,17 +14,15 @@ You can view how this website template looks <a href="https://github.com/martinb
 
 Look closely at the files in this repository. 
 
-You will see a number of files are named with the .md file extension. That is: **index.md**, **page2.md** … **page5.md**. 
+You will see a number of files are named with the .html file extension. That is: **index.html**, **page2.html** … **page5.html**. 
 
-### .md files explained
+### About the HTML files
 
-.md stands for MarkDown. (Note: Markdown language is written differently to HTML, but Jekyll converts it to HTML when you publish your pages. We don't introduce Markdown tags here. However, if you want to experiment with Markdown in your .md pages, you can read <a href="https://guides.github.com/features/mastering-markdown/">this guide</a>.) 
+* These files are the pages of your website. You write your HTML directly into these files, so it's a great way to learn basic HTML coding.  But you will only need to use tags for the body of the document. E.G.: `<h1>`, `<h2>`, `<p>`, `<hr>`, `<img>`, `<video>`, `<iframe>` etc..
 
-* You can write your HTML directly into the Markdown files, so it's a great way to learn basic HTML coding.  But you will only need to use tags for the body of the document. E.G.: `<h1>`, `<h2>`, `<p>`, `<hr>`, `<img>`, `<video>`, `<iframe>` etc..
+* When you edit the .html files, you are only editing the content for the BODY part of your pages. Jekyll will then automatically insert this into the BODY section of your page template, and publish them into fully formed HTML documents. 
 
-* When you edit the .md files, you are only editing the content for the BODY part of your pages. Jekyll will then automatically insert the content of your md files into the BODY section of your page template, and publish them into fully formed HTML documents. 
-
-* The big advantage of .md files is that editing these won't affect the architecture and structure of your main HTML template. However, it's important to be aware of renaming these files. 
+* The big advantage of working in this way is that editing these files won't affect the architecture and structure of your main HTML template. However, it's important to be aware of renaming these files. 
 
 ### Other essential files
 
@@ -40,7 +38,7 @@ You will see a number of files are named with the .md file extension. That is: *
 
 ## How to Import for your own use
 
-First copy <a href="https://github.com/martinbarge/template-2021">the URL to this repository</a>.
+First copy <a href="https://github.com/martinbarge/template-2022">the URL to this repository</a>.
 Next, go to the small plus + sign at the top right-hand corner of your GitHub account, and under the plus sign, select 'Import repository'.
 
 Then, paste the URL into the box where it is written, 'Your old repository’s clone URL'. Also, at this point, give a name to the repository where it says 'Your new repository details'. Then click the 'Begin import' button.
