@@ -24,6 +24,15 @@ You will see a number of files are named with the .html file extension. That is:
 
 * The big advantage of working in this way is that editing these files won't affect the architecture and structure of your main HTML template. However, it's important to be aware of renaming these files. 
 
+* Open one of the HTML files and you will see this entry at the top: 
+
+  ---
+  layout: default
+  title: home
+  ---
+  
+  You **must** include this entry at the top of every HTML page. Why? Because this tells the page to use the Default template file and is used by the website engine to apply the template to the page. If you make a mistake with this part, your page won't display correctly. Try changing it to see what happens!
+
 ### Other essential files
 
 1. **HTML Template** : The HTML template file of your site is named **default.html** and is located in the **&#95;layouts** folder. You won't need to edit the HTML template at all - unless, of course, you want to get into deeper levels of customisation.
