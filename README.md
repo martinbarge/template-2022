@@ -27,10 +27,10 @@ You will see a number of files are named with the .html file extension. That is:
 * Open one of the HTML files and you will see this entry at the top: 
 
 ```
-  &#45; &#45; &#45; 
+  --- 
   layout: default
   title: home
-  &#45; &#45; &#45;
+  ---
 ```
   
   You **must** include this entry at the top of every HTML page. Why? Because this tells the page to use the Default template file and is used by the website engine to apply the template to the page. If you make a mistake with this part, your page won't display correctly. Try changing it to see what happens!
